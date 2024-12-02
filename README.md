@@ -24,13 +24,13 @@ from django.db import models
 from django.contrib import admin
 
 class book(models.Model):
-    book_no = models.AutoField(primary_key=True)  # Primary Key: Auto-incrementing ID for the book
-    book_name = models.CharField(max_length=200)  # Name of the book
-    customer_name = models.CharField(max_length=100)  # Customer's name
-    mobile_no = models.CharField(max_length=15)  # Customer's mobile number
-    email = models.EmailField()  # Customer's email address
-    book_price = models.DecimalField(max_digits=10, decimal_places=2)  # Price of the book
-    aadhar_no = models.CharField(max_length=12, blank=True, null=True)  # Optional Aadhar number
+    book_no = models.AutoField(primary_key=True)  
+    book_name = models.CharField(max_length=200)  
+    customer_name = models.CharField(max_length=100) 
+    mobile_no = models.CharField(max_length=15)  
+    email = models.EmailField()  
+    book_price = models.DecimalField(max_digits=10, decimal_places=2)  
+    aadhar_no = models.CharField(max_length=12, blank=True, null=True) 
     address = models.TextField(blank=True, null=True) 
 class Admin(admin.ModelAdmin):
     list_display = ('book_no', 'book_name', 'customer_name', 'mobile_no', 'email', 'book_price', 'aadhar_no', 'address')
