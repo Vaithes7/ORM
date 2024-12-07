@@ -48,6 +48,7 @@ admin.site.register(book, Admin)
 # OUTPUT
 ```
 
+![image](https://github.com/user-attachments/assets/f2066011-efd9-4745-a0c3-011e5244d94d)
 
 ![Screenshot (21)](https://github.com/user-attachments/assets/9d75c8b3-c1bd-4993-8d70-35d488142c94)
 ![Screenshot (15)](https://github.com/user-attachments/assets/e219078a-078d-4ed5-b4c8-5023ec77da9b)
